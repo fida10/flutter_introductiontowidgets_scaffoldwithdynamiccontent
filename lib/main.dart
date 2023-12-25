@@ -32,9 +32,6 @@ class YourDynamicScreen extends StatefulWidget {
 }
 
 class _YourDynamicScreenState extends State<YourDynamicScreen> {
-  // final dropDownOptions = <String>[
-  //   'Initial Content', 'Option 1', 'Option 2', 'Option 3', 'Option 4'];
-  // final textForEachOption = <String>['Content for Initial Content', 'Content for Option 1', 'Content for Option 2', 'Content for Option 3', 'Content for Option 4'];
   final dropDownOptionMap = <String, String>{
     'Initial Content': 'Content for Initial Content',
     'Option 1': 'Content for Option 1',
